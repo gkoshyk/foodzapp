@@ -1,0 +1,28 @@
+Nov 26, 2014 6:12:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_04\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Java\jdk1.7.0_04\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Python27;C:\Program Files (x86)\Python27\Scripts;.
+Nov 26, 2014 6:12:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 26, 2014 6:12:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 26, 2014 6:12:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2453 ms
+Nov 26, 2014 6:12:51 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 26, 2014 6:12:51 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.26
+Nov 26, 2014 6:12:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\projects\foodzapp\apache-tomcat-7.0.26\webapps\docs
+Nov 26, 2014 6:12:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\projects\foodzapp\apache-tomcat-7.0.26\webapps\examples
+Nov 26, 2014 6:12:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\projects\foodzapp\apache-tomcat-7.0.26\webapps\host-manager
+Nov 26, 2014 6:12:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\projects\foodzapp\apache-tomcat-7.0.26\webapps\manager
+Nov 26, 2014 6:12:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\projects\foodzapp\apache-tomcat-7.0.26\webapps\ROOT
+Nov 26, 2014 6:12:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 26, 2014 6:12:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 26, 2014 6:12:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1408 ms

@@ -1,0 +1,8 @@
+DROP DATABASE foodzapp;
+CREATE DATABASE foodzapp;
+USE foodzapp;
+CREATE TABLE CUSTOMER (CustomerID INTEGER AUTO_INCREMENT PRIMARY KEY , Email VARCHAR(20) NOT NULL UNIQUE, Password VARCHAR(20), CustomerName VARCHAR(30), PhoneNumber varchar (10), Address VARCHAR(255));
+CREATE TABLE ITEMSORDER (OrderID INTEGER AUTO_INCREMENT PRIMARY KEY , CustomerID INTEGER, Amount FLOAT, DateAndTimeOfOrder TIMESTAMP, FOREIGN KEY (CustomerID) REFERENCES customer (customerid));
+CREATE TABLE DELIVERYGUY(DeliveryGuyID INTEGER AUTO_INCREMENT PRIMARY KEY,Email VARCHAR(100) NOT NULL UNIQUE,Password VARCHAR(20),DeliveryGuyName VARCHAR(30), PhoneNumber varchar (10), Address VARCHAR(255));
+CREATE TABLE DELIVEREDITEM(DeliveryGuyID INTEGER,OrderID INTEGER,AmountGotForDelivery INTEGER,DeliveredForCafeteria varchar(20));
+CREATE TABLE CAFETERIA(CafeteriaID integer auto_increment ,CafeteriaName varchar(20),Password varchar(20));
